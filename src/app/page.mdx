@@ -3,9 +3,8 @@ import { Resources } from '@/components/Resources'
 import { HeroPattern } from '@/components/HeroPattern'
 
 export const metadata = {
-  title: 'Website Documentation',
-  description:
-    'Learn everything there is to know about how to use our website and how to add new pages and listings.',
+  title: 'Documentation du site web',
+  description: `Apprenez tout ce qu'il y a à savoir sur l'utilisation de notre site web et comment ajouter de nouvelles pages et annonces.`,
 }
 
 export const sections = [
@@ -16,27 +15,25 @@ export const sections = [
 
 <HeroPattern />
 
-# Website Documentation
+# Documentation du site web
 
-Welcome to our website documentation, where we provide comprehensive guidance on utilizing our platform. This documentation not only covers the usage of the website but also provides instructions on adding new pages and listings. {{ className: 'lead' }}
+Bienvenue dans notre documentation du site web, où nous fournissons des directives complètes sur l'utilisation de notre plateforme. Cette documentation couvre non seulement l'utilisation du site web, mais elle fournit également des instructions sur l'ajout de nouvelles pages et annonces. {{ className: 'lead' }}
 
 <div className="not-prose mb-16 mt-6 flex gap-3">
   <Button href="/login" arrow="right">
-    <>Log in to the backend</>
+    <>Connectez-vous à l'interface d'administration</>
   </Button>
  
 </div>
 
-## Getting started {{ anchor: false }}
+## Pour commencer {{ anchor: false }}
 
-To better understand our platform, it's crucial to recognize that it consists of two distinct structures: <a href="https://bo.jibril.immo" target="_blank">the backend</a>, responsible for content management, and <a target="_blank" href="http://jibril.immo">the frontend</a>, the visible interface for your visitors and clients. In this guide, we will delve into both aspects, equipping you with the knowledge needed to make the most of our website. {{ className: 'lead' }}
+Pour mieux comprendre notre plateforme, il est crucial de reconnaître qu'elle se compose de deux structures distinctes : <a href="https://bo.jibril.immo" target="_blank">le backend</a>, responsable de la gestion du contenu, et <a target="_blank" href="http://jibril.immo">le front-end</a>, l'interface visible pour vos visiteurs et clients. Dans ce guide, nous explorerons les deux aspects, en vous fournissant les connaissances nécessaires pour tirer le meilleur parti de notre site web. {{ className: 'lead' }}
 
 # Technologies 
 
-We employed two primary technologies in the construction of the website: <a href="https://react.dev/" target="_blank">React</a> and <a href="https://wordpress.org/" target="_blank">WordPress</a>. React, a JavaScript framework created by <a href="https://www.facebook.com/" target='_blank'>Facebook</a>, is widely adopted by major companies like <a href="https://airbnb.com" target='_blank'>Airbnb</a>, <a href="https://twitter.com" target='_blank'>Twitter</a>, and <a href="https://netflix.com" target='_blank'>Netflix</a>. On the other hand, WordPress serves as a robust content management system (CMS) designed for efficient content management. In our case, we harness the power of WordPress exclusively as a backend platform due to its familiar dashboard interface on the website. We have tailored it to meet our specific backend requirements. Both React and WordPress communicate with each other through <a href="https://en.wikipedia.org/wiki/API" target='_blank'>APIs</a>. {{ className: 'lead' }}
+Nous avons utilisé deux technologies principales dans la construction du site web : <a href="https://react.dev/" target="_blank">React</a> et <a href="https://wordpress.org/" target="_blank">WordPress</a>. React, un framework JavaScript créé par <a href="https://www.facebook.com/" target='_blank'>Facebook</a>, est largement adopté par des grandes entreprises telles que <a href="https://airbnb.com" target='_blank'>Airbnb</a>, <a href="https://twitter.com" target='_blank'>Twitter</a> et <a href="https://netflix.com" target='_blank'>Netflix</a>. D'autre part, WordPress sert de système de gestion de contenu (CMS) robuste conçu pour une gestion efficace du contenu. Dans notre cas, nous exploitons la puissance de WordPress exclusivement en tant que plateforme backend en raison de son interface de tableau de bord familière sur le site web. Nous l'avons adapté pour répondre à nos besoins spécifiques en backend. React et WordPress communiquent entre eux via <a href="https://fr.wikipedia.org/wiki/Interface_de_programmation" target='_blank'>des API</a>. {{ className: 'lead' }}
 
 <Guides />
 
 <Resources />
-
-

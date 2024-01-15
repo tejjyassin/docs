@@ -14,7 +14,7 @@ const resources = [
   {
     href: '/accueil',
     name: 'Home page',
-    description: 'Learn about the structure of components in your home page.',
+    description: `Découvrez la structure des composants de votre page d'accueil`,
     icon: UserIcon,
     pattern: {
       y: 16,
@@ -28,7 +28,7 @@ const resources = [
     href: '/qui-sommes-nous',
     name: 'Qui sommes-nous',
     description:
-      'Learn about the structure of components in the qui sommes-nous page.',
+      'Découvrez la structure des composants de la page qui sommes-nous.',
     icon: ChatBubbleIcon,
     pattern: {
       y: -6,
@@ -41,7 +41,7 @@ const resources = [
   {
     href: '/vendre',
     name: 'Vendre',
-    description: 'Learn about the structure of components in the Vendre page',
+    description: 'Découvrez la structure des composants pour la page Vendre.',
     icon: EnvelopeIcon,
     pattern: {
       y: 32,
@@ -54,7 +54,7 @@ const resources = [
   {
     href: '/autres',
     name: 'Other',
-    description: 'Learn about the other components located in other pages.',
+    description: `Découvrez les autres composants situés dans d'autres pages.`,
     icon: UsersIcon,
     pattern: {
       y: 22,
@@ -144,7 +144,7 @@ export function Resources() {
   return (
     <div className="my-16 xl:max-w-none">
       <Heading level={2} id="resources">
-        Components
+        Composantes
       </Heading>
       <div className="not-prose mt-4 grid grid-cols-1 gap-8 border-t border-zinc-900/5 pt-10 dark:border-white/5 sm:grid-cols-2 xl:grid-cols-4">
         {resources.map((resource) => (

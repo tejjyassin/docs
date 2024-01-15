@@ -22,6 +22,7 @@ function TopLevelNavItem({ href, children }) {
     <li className="md:hidden">
       <Link
         href={href}
+        target="_blank"
         className="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
       >
         {children}
@@ -196,20 +197,20 @@ export const navigation = [
     title: 'Sections',
     links: [
       { title: 'Introduction', href: '/' },
-      { title: 'Login & Dashboard', href: '/login' },
-      { title: 'Posts', href: '/posts' },
+      { title: 'Connexion & Tableau de bord', href: '/login' },
+      { title: 'Articles', href: '/posts' },
       { title: 'Pages', href: '/pages' },
       { title: 'Biens', href: '/biens' },
       { title: 'Globale', href: '/global' },
     ],
   },
   {
-    title: 'Components',
+    title: 'Composants',
     links: [
-      { title: 'Home page', href: '/accueil' },
+      { title: 'Accueil', href: '/accueil' },
       { title: 'Qui Somme-nous?', href: '/qui-sommes-nous' },
       { title: 'Vendre', href: '/vendre' },
-      { title: 'Other', href: '/autres' },
+      { title: 'Autres', href: '/autres' },
     ],
   },
 ]
@@ -219,10 +220,10 @@ export function Navigation(props) {
     <nav {...props}>
       <ul role="list">
         <TopLevelNavItem href="https://jibril.immo">
-          Public website
+          Site publique
         </TopLevelNavItem>
         <TopLevelNavItem href="https://synergie-media.com/contact">
-          Support
+          Contactez-nous
         </TopLevelNavItem>
         {navigation.map((group, groupIndex) => (
           <NavigationGroup
@@ -237,7 +238,7 @@ export function Navigation(props) {
             variant="filled"
             className="w-full"
           >
-            Sign in
+            Connexion
           </Button>
         </li>
       </ul>

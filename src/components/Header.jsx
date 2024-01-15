@@ -18,6 +18,7 @@ function TopLevelNavItem({ href, children }) {
     <li>
       <Link
         href={href}
+        target="_blank"
         className="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
       >
         {children}
@@ -69,10 +70,10 @@ export const Header = forwardRef(function Header({ className }, ref) {
         <nav className="hidden md:block">
           <ul role="list" className="flex items-center gap-8">
             <TopLevelNavItem href="https://jibril.immo">
-              Website
+              Site web publique
             </TopLevelNavItem>
             <TopLevelNavItem href="https://synergie-media.com/contact/">
-              Support
+              Contactez-nous
             </TopLevelNavItem>
           </ul>
         </nav>
@@ -82,7 +83,7 @@ export const Header = forwardRef(function Header({ className }, ref) {
           <ThemeToggle />
         </div>
         <div className="hidden min-[416px]:contents">
-          <Button href="http://bo.jibril.immo">Sign in</Button>
+          <Button href="http://bo.jibril.immo">Connexion</Button>
         </div>
       </div>
     </motion.div>

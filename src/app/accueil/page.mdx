@@ -1,56 +1,55 @@
 
 export const metadata = {
-  title: 'Home page',
+  title: 'Page d\'accueil',
   description:
-    'On this page, we’ll dive into the different components we have on the home page.',
+    'Sur cette page, nous plongerons dans les différents composants que nous avons sur la page d\'accueil.',
 }
 
-# Home page components
+# Composants de la page d'accueil
 
-The home page of the website features a carefully curated collection of components, each designed to provide an engaging and user-friendly experience for our visitors. Let's delve into the descriptions of these components: {{ className: 'lead' }}
+La page d'accueil du site web présente une collection soigneusement sélectionnée de composants, chacun conçu pour offrir une expérience engageante et conviviale à nos visiteurs. Plongeons dans les descriptions de ces composants : {{ className: 'lead' }}
 
-
-## Hero Image
+## Image d'entête (Hero Image)
 
 <Row>
   <Col>
 
-    The hero image is a large image that spans the width of the page. It is used to draw attention to the page and provide a visual representation of the page's content.
+    L'image d'entête est une grande image qui s'étend sur toute la largeur de la page. Elle est utilisée pour attirer l'attention sur la page et fournir une représentation visuelle du contenu de la page.
 
-    ### Search form
+    ### Formulaire de recherche
 
-    The Hero section also include a search form linked to it, this search is set to automatically search for a listing based on a few search term already provided, this form is programmatically set that you don't need to make any adjustment to it, but if you want to change the content of the search form, you can do so by going to the Globale Settings and change the content of the search form.
+    La section Hero inclut également un formulaire de recherche lié à elle. Cette recherche est configurée pour rechercher automatiquement une annonce en fonction de quelques termes de recherche déjà fournis. Ce formulaire est programmé de manière à ce que vous n'ayez pas besoin d'y apporter de modifications, mais si vous souhaitez changer le contenu du formulaire de recherche, vous pouvez le faire en accédant aux Paramètres globaux et en modifiant le contenu du formulaire de recherche.
 
   </Col>
   <Col>
 
-    ![Hero Image Setting](/screenshots/hero-img.png)*Hero Image Settings*
+    ![Paramètres de l'image d'entête](/screenshots/hero-img.png)*Paramètres de l'image d'entête*
 
-    ![Hero section on the website](/screenshots/home-hero.png)*Hero section on the website*
+    ![Section Hero sur le site web](/screenshots/home-hero.png)*Section Hero sur le site web*
 
   </Col>
 </Row>
 
 ---
 
-## Bien listée
+## Biens listés
 
 <Row>
   <Col>
 
-    Bien listée is a group of listed biens on the home page, this section is set to automatically list the recent 6 biens that are published on the website, this section is programmatically set that you don't need to make any adjustment to it! Please feel free to review the <a href="/biens">Biens</a> page to learn more about how to add biens to your website.
+    Biens listés sont un groupe de biens répertoriés sur la page d'accueil. Cette section est configurée pour répertorier automatiquement les 6 biens les plus récents publiés sur le site web. Cette section est programmée de telle sorte que vous n'ayez pas besoin d'y apporter de modifications ! N'hésitez pas à consulter la page <a href="/biens">Biens</a> pour en savoir plus sur la manière d'ajouter des biens à votre site web.
 
-    ### Available settings
+    ### Paramètres disponibles
 
 <Properties>
-  <Property name="title" type="text">
-    The title of the section
+  <Property name="titre" type="text">
+    Le titre de la section
   </Property>
-  <Property name="type" type="select options">
-    The type of biens to select, available options are Recent biens, and Select biens which allow you to select the biens you want to display on the home page.
+  <Property name="type" type="sélection d'options">
+    Le type de biens à sélectionner, les options disponibles sont Biens récents et Sélectionner des biens, ce qui vous permet de choisir les biens que vous souhaitez afficher sur la page d'accueil.
   </Property>
-  <Property name="bouton" type="boutton">
-    The bouton to display on the section, this bouton is linked to the biens page by default, but you can change the link to any page you want.
+  <Property name="bouton" type="bouton">
+    Le bouton à afficher sur la section, ce bouton est lié à la page des biens par défaut, mais vous pouvez changer le lien vers n'importe quelle page de votre choix.
   </Property>
   
 </Properties>
@@ -58,8 +57,8 @@ The home page of the website features a carefully curated collection of componen
   </Col>
   <Col>
 
-    ![Bien listée Setting](/screenshots/biens-listee.png)*Biens listée settings*
-    ![Biens listée on the website](/screenshots/home-biens.png)*Biens listée on the website*
+    ![Paramètres des biens listés](/screenshots/biens-listee.png)*Paramètres des biens listés*
+    ![Biens listés sur le site web](/screenshots/home-biens.png)*Biens listés sur le site web*
 
   </Col>
 </Row>
@@ -71,22 +70,22 @@ The home page of the website features a carefully curated collection of componen
 <Row>
   <Col>
 
-    Bloc de description is a simple section that allow you to add a title, description and a button to your home page. 
+    Le bloc de description est une section simple qui vous permet d'ajouter un titre, une description et un bouton à votre page d'accueil. 
 
-    ### Available settings
+    ### Paramètres disponibles
 
 <Properties>
   <Property name="titre" type="text">
-    The title of the section
+    Le titre de la section
   </Property>
-  <Property name="description" type="wyiwyg">
-    An editor bloc to add your description and manipulate it however you feel
+  <Property name="description" type="éditeur wysiwyg">
+    Un bloc d'éditeur pour ajouter votre description et la manipuler comme bon vous semble
   </Property>
   <Property name="image" type="image">
-    The Image section is optional, if added, the image will be displayed on the left side and the text on the right side, if not, the text will be displayed on the center of the section. 
+    La section Image est facultative. Si elle est ajoutée, l'image sera affichée à gauche et le texte à droite. Sinon, le texte sera affiché au centre de la section. 
   </Property>
-  <Property name="Plus button" type="button">
-    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  <Property name="Bouton Plus" type="bouton">
+    Un bouton libre à utiliser qui vous permettra de créer un lien vers n'importe quelle page de votre choix. Il vous suffit de définir le texte et le lien, et vous êtes prêt à partir.
   </Property>
   
 </Properties>
@@ -94,35 +93,35 @@ The home page of the website features a carefully curated collection of componen
   </Col>
   <Col>
 
-    ![Bien listée Setting](/screenshots/bloc-description.png)*Bloc description settings*
-    ![Biens listée on the website](/screenshots/home-bloc-description.png)*Bloc description on the website*
+    ![Paramètres du bloc de description](/screenshots/bloc-description.png)*Paramètres du bloc de description*
+    ![Bloc de description sur le site web](/screenshots/home-bloc-description.png)*Bloc de description sur le site web*
 
   </Col>
 </Row>
 
----
 
+---
 ## Projets neufs
 
 <Row>
   <Col>
 
-    Projets neuf is a simple highlighted section to promote your new projects. This section include a title, description, image and button. 
+    Projets neufs est une section simple et mise en avant pour promouvoir vos nouveaux projets. Cette section comprend un titre, une description, une image et un bouton. 
 
-    ### Available settings
+    ### Paramètres disponibles
 
 <Properties>
   <Property name="titre" type="text">
-    The title of the section
+    Le titre de la section
   </Property>
-  <Property name="description" type="wyiwyg">
-    An editor bloc to add your description and manipulate it however you feel
+  <Property name="description" type="éditeur wysiwyg">
+    Un bloc d'édition pour ajouter votre description et la manipuler comme vous le souhaitez
   </Property>
   <Property name="image" type="image">
-    The image you want to use to highlight your new projects
+    L'image que vous souhaitez utiliser pour mettre en avant vos nouveaux projets
   </Property>
-  <Property name="Plus button" type="button">
-    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  <Property name="Bouton Plus" type="bouton">
+    Un bouton gratuit à utiliser qui vous permettra de créer un lien vers n'importe quelle page de votre choix. Il vous suffit de définir le texte et le lien, et vous êtes prêt à partir.
   </Property>
   
 </Properties>
@@ -130,8 +129,8 @@ The home page of the website features a carefully curated collection of componen
   </Col>
   <Col>
 
-    ![Projets neufs Setting](/screenshots/projets-neufs.png)*Projets neufs settings*
-    ![Projets neufs on the website](/screenshots/home-projets-neufs.png)*Projets neufs on the website*
+    ![Paramètres des Projets neufs](/screenshots/projets-neufs.png)*Paramètres des Projets neufs*
+    ![Projets neufs sur le site web](/screenshots/home-projets-neufs.png)*Projets neufs sur le site web*
 
   </Col>
 </Row>
@@ -143,20 +142,20 @@ The home page of the website features a carefully curated collection of componen
 <Row>
   <Col>
 
-    Bloc actualites is a section that displays three recent news from the posts sections! This section is set to automatically list the recent 3 posts that are published on the website, this section is programmatically set that you don't need to make any adjustment to it! Please feel free to review the <a href="/posts">Posts</a> page to learn more about how to add posts to your website.
+    Le Bloc actualités est une section qui affiche trois actualités récentes de la section des articles ! Cette section est configurée pour répertorier automatiquement les 3 articles les plus récents publiés sur le site web. Cette section est programmée de telle sorte que vous n'ayez pas besoin d'y apporter de modifications ! N'hésitez pas à consulter la page <a href="/posts">Articles</a> pour en savoir plus sur la manière d'ajouter des articles à votre site web.
 
-    ### Available settings
+    ### Paramètres disponibles
 
 <Properties>
   <Property name="titre" type="text">
-    The title of the section
+    Le titre de la section
   </Property>
-  <Property name="type" type="select">
-    The type of posts to select, available options are Recent posts, and Select posts which allow you to select the posts you want to display on the home page.
+  <Property name="type" type="sélection">
+    Le type d'articles à sélectionner, les options disponibles sont Articles récents et Sélectionner des articles, ce qui vous permet de choisir les articles que vous souhaitez afficher sur la page d'accueil.
   </Property>
   
-  <Property name="Plus button" type="button">
-    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  <Property name="Bouton Plus" type="bouton">
+    Un bouton gratuit à utiliser qui vous permettra de créer un lien vers n'importe quelle page de votre choix. Il vous suffit de définir le texte et le lien, et vous êtes prêt à partir.
   </Property>
   
 </Properties>
@@ -164,8 +163,8 @@ The home page of the website features a carefully curated collection of componen
   </Col>
   <Col>
 
-    ![Bloc actualités Setting](/screenshots/bloc-actualites.png)*Bloc actualités settings*
-    ![Bloc actualités on the website](/screenshots/home-bloc-actualites.png)*Bloc actualités on the website*
+    ![Paramètres du Bloc actualités](/screenshots/bloc-actualites.png)*Paramètres du Bloc actualités*
+    ![Bloc actualités sur le site web](/screenshots/home-bloc-actualites.png)*Bloc actualités sur le site web*
 
   </Col>
 </Row>
@@ -178,22 +177,22 @@ The home page of the website features a carefully curated collection of componen
 <Row>
   <Col>
 
-    Bloc de promotion is a section to promote a service in your website, in our case, we are using it to promote the listing of biens, but you can use it to promote any service you want. This section include title, description, image, and a button. 
+    Le Bloc de promotion est une section permettant de promouvoir un service sur votre site web. Dans notre cas, nous l'utilisons pour promouvoir la liste des biens, mais vous pouvez l'utiliser pour promouvoir n'importe quel service de votre choix. Cette section comprend un titre, une description, une image et un bouton. 
 
-    ### Available settings
+    ### Paramètres disponibles
 
 <Properties>
   <Property name="titre" type="text">
-    The title of the section
+    Le titre de la section
   </Property>
-  <Property name="description" type="wyiwyg">
-    An editor bloc to add your description and manipulate it however you feel
+  <Property name="description" type="éditeur wysiwyg">
+    Un bloc d'édition pour ajouter votre description et la manipuler comme vous le souhaitez
   </Property>
   <Property name="image" type="image">
-    The image you want to use to highlight your new projects
+    L'image que vous souhaitez utiliser pour mettre en avant vos nouveaux projets
   </Property>
-  <Property name="Plus button" type="button">
-    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  <Property name="Bouton Plus" type="bouton">
+    Un bouton gratuit à utiliser qui vous permettra de créer un lien vers n'importe quelle page de votre choix. Il vous suffit de définir le texte et le lien, et vous êtes prêt à partir.
   </Property>
   
 </Properties>
@@ -201,8 +200,8 @@ The home page of the website features a carefully curated collection of componen
   </Col>
   <Col>
 
-    ![Bloc de promotion Setting](/screenshots/bloc-promotion.png)*Bloc de promotion settings*
-    ![Bloc de promotion on the website](/screenshots/home-bloc-promotion.png)*Bloc de promotion on the website*
+    ![Paramètres du Bloc de promotion](/screenshots/bloc-promotion.png)*Paramètres du Bloc de promotion*
+    ![Bloc de promotion sur le site web](/screenshots/home-bloc-promotion.png)*Bloc de promotion sur le site web*
 
   </Col>
 </Row>
@@ -216,19 +215,19 @@ The home page of the website features a carefully curated collection of componen
 <Row>
   <Col>
 
-    Questions Fréquentes is a section to display a list of questions and answers, it is used in this case to preserve the same keywords/content we previously had on the old website for SEO purposes. This section is very flexible and can be used to display any type of content you want.
+    Questions Fréquentes est une section permettant d'afficher une liste de questions et de réponses. Elle est utilisée dans ce cas pour conserver les mêmes mots-clés/contenu que nous avions précédemment sur l'ancien site web à des fins de référencement (SEO). Cette section est très flexible et peut être utilisée pour afficher n'importe quel type de contenu que vous souhaitez.
 
-    ### Available settings
+    ### Paramètres disponibles
 
 <Properties>
   <Property name="titre" type="text">
-    The title of the section
+    Le titre de la section
   </Property>
   <Property name="question" type="text">
-    a text section to display a title/question 
+    une section de texte pour afficher un titre/question 
   </Property>
-  <Property name="answer" type="wysiwyg">
-  a wysiwyg section to display the answer to the question
+  <Property name="réponse" type="éditeur wysiwyg">
+  une section wysiwyg pour afficher la réponse à la question
   </Property>
   
 </Properties>
@@ -236,8 +235,8 @@ The home page of the website features a carefully curated collection of componen
   </Col>
   <Col>
 
-    ![Questions Fréquentes Setting](/screenshots/faqs.png)*Questions Fréquentes settings*
-    ![Questions Fréquentes on the website](/screenshots/home-faqs.png)*Questions Fréquentes on the website*
+    ![Paramètres des Questions Fréquentes](/screenshots/faqs.png)*Paramètres des Questions Fréquentes*
+    ![Questions Fréquentes sur le site web](/screenshots/home-faqs.png)*Questions Fréquentes sur le site web*
 
   </Col>
 </Row>
@@ -245,18 +244,18 @@ The home page of the website features a carefully curated collection of componen
 
 ---
 
-## Dummy content
+## Contenu factice (Dummy content)
 
 <Row>
   <Col>
 
-    This section was only kept for SEO purposes, it is only to keep the use of the same keywords/content on the previous website. 
+    Cette section a été conservée uniquement à des fins de référencement (SEO), elle sert uniquement à maintenir l'utilisation des mêmes mots-clés/contenu que sur l'ancien site web. 
 
-    ### Available settings
+    ### Paramètres disponibles
 
 <Properties>
-  <Property name="content" type="wysiwyg">
-    content you want to display on the home page
+  <Property name="contenu" type="éditeur wysiwyg">
+    contenu que vous souhaitez afficher sur la page d'accueil
   </Property>  
   
 </Properties>
@@ -264,10 +263,9 @@ The home page of the website features a carefully curated collection of componen
   </Col>
   <Col>
 
-    ![Dummy Content Setting](/screenshots/dummy-content.png)*Dummy Content settings*
-    ![Dummy Content on the website](/screenshots/home-dummy-content.png)*Dummy Content on the website*
+    ![Paramètres du Contenu factice](/screenshots/dummy-content.png)*Paramètres du Contenu factice*
+    ![Contenu factice sur le site web](/screenshots/home-dummy-content.png)*Contenu factice sur le site web*
 
   </Col>
 </Row>
-
 
