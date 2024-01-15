@@ -1,0 +1,149 @@
+export const metadata = {
+  title: 'Biens',
+  description:
+    'In this guide, we will look at how to add/edit/delete a bien on the website.',
+}
+
+# Pages
+
+The "Biens" section serves as a specialized area for all the listings available on the website. Much like <a href="/pages">pages</a> and <a href="/posts">posts</a> , you can perform actions such as adding, editing, and deleting a "bien" in a similar manner. However, what sets "Biens" apart is its unique content structure. While posts utilize a straightforward editor for content input and pages rely on the <a href="/components">components</a> system, "Biens" employs a distinct system, which we will delve into in this section.
+
+<Note>
+Adding/editing and deleting a new Biens is similar to the pages/posts structure, if you are having trouble with the basics, please refer to the <a href="/pages">pages</a> and <a href="/posts">posts</a> sections.
+</Note>
+
+## Bien structure
+
+To add a new page, you need to go to the "Biens" section on the left menu. Then, click on "Add a bien" on the top left corner.
+
+You will get a new page with a title, List of forms and a sidebar that contain some extra information. 
+
+![Add new post](/screenshots/biens.png)*Biens->Add New Post*
+
+The list of forms is seperated by tabs, each tab contains a list of fields that you can fill. Here is a list of tabs available : 
+
+## 01. Generale
+
+<Row>
+<Col>
+The "Generale" tab contains the general information about the bien. here is a detailed list of all its fields : 
+
+1. **Vente** : A switch that indicates whether the bien is for sale or not.
+2. **Location** : A switch that indicates whether the bien is for rent or not.
+3. **Location meublé** : A switch that indicates whether the bien is for rent furnished or not.
+4. **Location vide** : A switch that indicates whether the bien is for rent unfurnished or not.
+5. **Location saisonnière** : A switch that indicates whether the bien is for rent seasonal or not.
+6. **Exclusive** : A switch that indicates whether the bien is exclusive or not.
+7. **Projets Neufs** : A switch that indicates whether the bien is a new project or not.
+8. **Status** : A list of options to indicate the status of the biens, available options are : Publiée (default), Louée, Vendue. 
+9. **Reference** : A text field to indicate the reference of the bien.
+10. **id_bien** : A text field to indicate the id of the bien, (used as a reference on the previous website)
+11. **Titre en Francais** : A text field to indicate the title of the bien in french.
+12. **Titre en Anglais** : A text field to indicate the title of the bien in english.
+13. **Description en Francais** : A text field to indicate the description of the bien in french.
+14. **Description en Anglais** : A text field to indicate the description of the bien in english.
+</Col>
+<Col>
+
+![General Settings](/screenshots/general.png)*Biens->Add New Bien->Generale*
+![General on the website](/screenshots/biens-general.png)*Example of general information of a bien*
+
+</Col>
+</Row>
+
+---
+
+## 02. Images
+
+<Row>
+<Col>
+
+The "Images" tab contains the images of the bien. You can add as many images as you want. just click on Ajouter à la galerie to and upload your images
+</Col>
+
+<Col>
+
+![Images](/screenshots/biens-gallery.png)*Example of images of a bien*
+</Col>
+</Row>
+
+--- 
+
+## 03. Prix 
+
+<Row>
+<Col>
+
+The "Prix" tab contains the price of the bien. here is a detailed list of all its fields :
+
+1. **Prix de vente** : A text field to indicate the sale price of the bien.
+2. **Prix de location par mois** : A text field to indicate the rent price by month.
+3. **Prix de location par jour** : A text field to indicate the rent price by day.
+4. **Nous consulter** : A switch that indicates whether the price is on demand or not.
+5. **Frais de syndic** : A text field to indicate the syndic fees.
+6. **Prix ancien** : A text field to indicate the old price of the bien. (not used on current website)
+</Col>
+
+<Col>
+![Prix](/screenshots/biens-price.png)*Example of price of a bien*
+</Col>
+
+</Row>
+
+
+---
+
+## 04. Caracteristiques
+
+<Row>
+<Col>
+The "Caracteristiques" tab contains the caracteristics of the bien. here is a detailed list of all its fields :
+
+1. **Parcelle** : A text field to indicate the parcelle of the bien.
+2. **Surface** : A text field to indicate the living area of the bien.
+3. **Pieces** : A text field to indicate the number of rooms of the bien.
+4. **Chambres** : A text field to indicate the number of bedrooms of the bien.
+5. **Salle de bain** : A text field to indicate the number of bathrooms of the bien.
+6. **Salle d'eau** : A text field to indicate the number of shower rooms of the bien.
+7. **Carrelage** : A switch that indicates whether the bien has a carrelage or not.
+8. **Ascenseur** : A switch that indicates whether the bien has an elevator or not.
+9. **Cuisine Equipe** : A switch that indicates whether the bien has an equipped kitchen or not.
+10. **Cuisine amenagée** : A switch that indicates whether the bien has a fitted kitchen or not.
+11. **Garage** : A switch that indicates whether the bien has a garage or not.
+12. **Parking sous sol** : A switch that indicates whether the bien has an underground parking or not.
+13. **Parking exterieur** : A switch that indicates whether the bien has an outdoor parking or not.
+14. **Terrase** : A switch that indicates whether the bien has a terrase or not.
+15. **Balcon** : A switch that indicates whether the bien has a balcony or not.
+16. **Jardin** : A switch that indicates whether the bien has a garden or not.
+17. **Piscine** : A switch that indicates whether the bien has a pool or not.
+18. **Climatisation** : A switch that indicates whether the bien has an air conditioning or not.
+19. **Climatisation centralisée** : A switch that indicates whether the bien has a centralized air conditioning or not.
+20. **Salle de bains extra** : A switch that indicates whether the bien has an extra bathroom or not.
+21. **Salle d'eau extra** : A switch that indicates whether the bien has an extra shower room or not.
+22. **Cheminée** : A switch that indicates whether the bien has a fireplace or not.
+23. **Rez de chaussée** : A switch that indicates whether the bien is on the ground floor or not.
+24. **Dernier étage** : A switch that indicates whether the bien is on the top floor or not.
+25. **Produits exceptionnelle** : A switch that indicates whether the bien is exceptional or not.
+26. **Nombre des etages** : A text field to indicate the number of floors of the bien.
+27. **Export sur Saroty** : A switch that indicates whether the bien is exported on Saroty or not (Not used on the new website). 
+28. **Export sur Mubaweb** : A switch that indicates whether the bien is exported on Mubaweb or not (Not used on the new website).
+19. **Date de publication** : A date field to indicate the publication date of the bien. (Not used on the new website).
+</Col>
+
+<Col>
+![Caracteristiques](/screenshots/biens-caracteristiques.png)*Example of caracteristiques of a bien*
+</Col>
+
+</Row>
+
+--- 
+
+## 05. Coordonnées
+
+The "Coordonnées" tab contains the coordinates of the bien. here is a detailed list of all its fields :
+
+1. **Adresse en Francais** : A text field to indicate the address of the bien in french. (Not used on the new website).
+2. **Adresse en Anglais** : A text field to indicate the address of the bien in english. (Not used on the new website).
+3. **Quartier** : A text field to indicate the neighborhood of the bien.
+4. **Code postal** : A text field to indicate the postal code of the bien.(Not used on the new website).
+5. **URL** : A text field to indicate the url of the bien. (Not used on the new website).

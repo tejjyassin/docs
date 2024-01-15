@@ -1,0 +1,273 @@
+
+export const metadata = {
+  title: 'Home page',
+  description:
+    'On this page, we’ll dive into the different components we have on the home page.',
+}
+
+# Home page components
+
+The home page of the website features a carefully curated collection of components, each designed to provide an engaging and user-friendly experience for our visitors. Let's delve into the descriptions of these components: {{ className: 'lead' }}
+
+
+## Hero Image
+
+<Row>
+  <Col>
+
+    The hero image is a large image that spans the width of the page. It is used to draw attention to the page and provide a visual representation of the page's content.
+
+    ### Search form
+
+    The Hero section also include a search form linked to it, this search is set to automatically search for a listing based on a few search term already provided, this form is programmatically set that you don't need to make any adjustment to it, but if you want to change the content of the search form, you can do so by going to the Globale Settings and change the content of the search form.
+
+  </Col>
+  <Col>
+
+    ![Hero Image Setting](/screenshots/hero-img.png)*Hero Image Settings*
+
+    ![Hero section on the website](/screenshots/home-hero.png)*Hero section on the website*
+
+  </Col>
+</Row>
+
+---
+
+## Bien listée
+
+<Row>
+  <Col>
+
+    Bien listée is a group of listed biens on the home page, this section is set to automatically list the recent 6 biens that are published on the website, this section is programmatically set that you don't need to make any adjustment to it! Please feel free to review the <a href="/biens">Biens</a> page to learn more about how to add biens to your website.
+
+    ### Available settings
+
+<Properties>
+  <Property name="title" type="text">
+    The title of the section
+  </Property>
+  <Property name="type" type="select options">
+    The type of biens to select, available options are Recent biens, and Select biens which allow you to select the biens you want to display on the home page.
+  </Property>
+  <Property name="bouton" type="boutton">
+    The bouton to display on the section, this bouton is linked to the biens page by default, but you can change the link to any page you want.
+  </Property>
+  
+</Properties>
+
+  </Col>
+  <Col>
+
+    ![Bien listée Setting](/screenshots/biens-listee.png)*Biens listée settings*
+    ![Biens listée on the website](/screenshots/home-biens.png)*Biens listée on the website*
+
+  </Col>
+</Row>
+
+---
+
+## Bloc de description
+
+<Row>
+  <Col>
+
+    Bloc de description is a simple section that allow you to add a title, description and a button to your home page. 
+
+    ### Available settings
+
+<Properties>
+  <Property name="titre" type="text">
+    The title of the section
+  </Property>
+  <Property name="description" type="wyiwyg">
+    An editor bloc to add your description and manipulate it however you feel
+  </Property>
+  <Property name="image" type="image">
+    The Image section is optional, if added, the image will be displayed on the left side and the text on the right side, if not, the text will be displayed on the center of the section. 
+  </Property>
+  <Property name="Plus button" type="button">
+    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  </Property>
+  
+</Properties>
+
+  </Col>
+  <Col>
+
+    ![Bien listée Setting](/screenshots/bloc-description.png)*Bloc description settings*
+    ![Biens listée on the website](/screenshots/home-bloc-description.png)*Bloc description on the website*
+
+  </Col>
+</Row>
+
+---
+
+## Projets neufs
+
+<Row>
+  <Col>
+
+    Projets neuf is a simple highlighted section to promote your new projects. This section include a title, description, image and button. 
+
+    ### Available settings
+
+<Properties>
+  <Property name="titre" type="text">
+    The title of the section
+  </Property>
+  <Property name="description" type="wyiwyg">
+    An editor bloc to add your description and manipulate it however you feel
+  </Property>
+  <Property name="image" type="image">
+    The image you want to use to highlight your new projects
+  </Property>
+  <Property name="Plus button" type="button">
+    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  </Property>
+  
+</Properties>
+
+  </Col>
+  <Col>
+
+    ![Projets neufs Setting](/screenshots/projets-neufs.png)*Projets neufs settings*
+    ![Projets neufs on the website](/screenshots/home-projets-neufs.png)*Projets neufs on the website*
+
+  </Col>
+</Row>
+
+---
+
+## Bloc actualités
+
+<Row>
+  <Col>
+
+    Bloc actualites is a section that displays three recent news from the posts sections! This section is set to automatically list the recent 3 posts that are published on the website, this section is programmatically set that you don't need to make any adjustment to it! Please feel free to review the <a href="/posts">Posts</a> page to learn more about how to add posts to your website.
+
+    ### Available settings
+
+<Properties>
+  <Property name="titre" type="text">
+    The title of the section
+  </Property>
+  <Property name="type" type="select">
+    The type of posts to select, available options are Recent posts, and Select posts which allow you to select the posts you want to display on the home page.
+  </Property>
+  
+  <Property name="Plus button" type="button">
+    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  </Property>
+  
+</Properties>
+
+  </Col>
+  <Col>
+
+    ![Bloc actualités Setting](/screenshots/bloc-actualites.png)*Bloc actualités settings*
+    ![Bloc actualités on the website](/screenshots/home-bloc-actualites.png)*Bloc actualités on the website*
+
+  </Col>
+</Row>
+
+
+---
+
+## Bloc de promotion
+
+<Row>
+  <Col>
+
+    Bloc de promotion is a section to promote a service in your website, in our case, we are using it to promote the listing of biens, but you can use it to promote any service you want. This section include title, description, image, and a button. 
+
+    ### Available settings
+
+<Properties>
+  <Property name="titre" type="text">
+    The title of the section
+  </Property>
+  <Property name="description" type="wyiwyg">
+    An editor bloc to add your description and manipulate it however you feel
+  </Property>
+  <Property name="image" type="image">
+    The image you want to use to highlight your new projects
+  </Property>
+  <Property name="Plus button" type="button">
+    A free to use button that will allow you to link to any page you want. just set the text and the link and you are good to go.
+  </Property>
+  
+</Properties>
+
+  </Col>
+  <Col>
+
+    ![Bloc de promotion Setting](/screenshots/bloc-promotion.png)*Bloc de promotion settings*
+    ![Bloc de promotion on the website](/screenshots/home-bloc-promotion.png)*Bloc de promotion on the website*
+
+  </Col>
+</Row>
+
+
+
+---
+
+## Questions Fréquentes
+
+<Row>
+  <Col>
+
+    Questions Fréquentes is a section to display a list of questions and answers, it is used in this case to preserve the same keywords/content we previously had on the old website for SEO purposes. This section is very flexible and can be used to display any type of content you want.
+
+    ### Available settings
+
+<Properties>
+  <Property name="titre" type="text">
+    The title of the section
+  </Property>
+  <Property name="question" type="text">
+    a text section to display a title/question 
+  </Property>
+  <Property name="answer" type="wysiwyg">
+  a wysiwyg section to display the answer to the question
+  </Property>
+  
+</Properties>
+
+  </Col>
+  <Col>
+
+    ![Questions Fréquentes Setting](/screenshots/faqs.png)*Questions Fréquentes settings*
+    ![Questions Fréquentes on the website](/screenshots/home-faqs.png)*Questions Fréquentes on the website*
+
+  </Col>
+</Row>
+
+
+---
+
+## Dummy content
+
+<Row>
+  <Col>
+
+    This section was only kept for SEO purposes, it is only to keep the use of the same keywords/content on the previous website. 
+
+    ### Available settings
+
+<Properties>
+  <Property name="content" type="wysiwyg">
+    content you want to display on the home page
+  </Property>  
+  
+</Properties>
+
+  </Col>
+  <Col>
+
+    ![Dummy Content Setting](/screenshots/dummy-content.png)*Dummy Content settings*
+    ![Dummy Content on the website](/screenshots/home-dummy-content.png)*Dummy Content on the website*
+
+  </Col>
+</Row>
+
+

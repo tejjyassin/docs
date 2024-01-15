@@ -1,0 +1,49 @@
+export const metadata = {
+  title: 'Components',
+  description:
+    'In this guide, we will talk about different components and its settings.',
+}
+
+# Components
+
+Components represent distinct sections of the webpages. The website offers a collection of standalone components that can be employed individually within a page. Each component comes with its own set of settings and configurations. In this section, we will delve into each component's settings and explore their functionalities. {{ className: 'lead' }}
+
+<Note>
+  Before reaching out to support with an error, please be aware that 99% of all
+  reported errors are, in fact, user errors. Therefore, please carefully check
+  your code before contacting Protocol support.
+</Note>
+
+---
+
+## How does it work? 
+
+The way components works is easy, in each page, we have a different set of sections to include, when adding a component, we simply say to the API which section we want to include and the API will return the HTML code and data to include in our page. think of them as pieces of a puzzle, you can add them in any order you want and they will always fit.
+
+To add a new component, Just select the page you want and add on "Ajouter une nouvelle section", then select the component you want to add. below is a list of all available components, their settings and how to use them.
+
+
+---
+
+## 01. Hero component
+
+<Row>
+  <Col>
+
+    Whenever a request is unsuccessful, the Protocol API will return an error response with an error type and message. You can use this information to understand better what has gone wrong and how to fix it. Most of the error messages are pretty helpful and actionable.
+
+    Here is a list of the two error types supported by the Protocol API — use these to understand what you have done wrong.
+
+  </Col>
+  <Col>
+
+    ```bash {{ title: "Error response" }}
+    {
+      "type": "api_error",
+      "message": "No way this is happening!?",
+      "documentation_url": "https://protocol.chat/docs/errors/api_error"
+    }
+    ```
+
+  </Col>
+</Row>

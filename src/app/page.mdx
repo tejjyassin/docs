@@ -1,0 +1,42 @@
+import { Guides } from '@/components/Guides'
+import { Resources } from '@/components/Resources'
+import { HeroPattern } from '@/components/HeroPattern'
+
+export const metadata = {
+  title: 'Website Documentation',
+  description:
+    'Learn everything there is to know about how to use our website and how to add new pages and listings.',
+}
+
+export const sections = [
+  { title: 'Technologies', id: 'technologies' },
+  { title: 'Guides', id: 'guides' },
+  
+]
+
+<HeroPattern />
+
+# Website Documentation
+
+Welcome to our website documentation, where we provide comprehensive guidance on utilizing our platform. This documentation not only covers the usage of the website but also provides instructions on adding new pages and listings. {{ className: 'lead' }}
+
+<div className="not-prose mb-16 mt-6 flex gap-3">
+  <Button href="/quickstart" arrow="right">
+    <>Log in to the platform</>
+  </Button>
+  <Button href="/sdks" variant="outline">
+    <>Structures and components</>
+  </Button>
+</div>
+
+## Getting started {{ anchor: false }}
+
+To better understand our platform, it's crucial to recognize that it consists of two distinct structures: <a href="https://bo.jibril.immo" target="_blank">the backend</a>, responsible for content management, and <a target="_blank" href="http://jibril.immo">the frontend</a>, the visible interface for your visitors and clients. In this guide, we will delve into both aspects, equipping you with the knowledge needed to make the most of our website. {{ className: 'lead' }}
+
+# Technologies 
+
+We employed two primary technologies in the construction of the website: <a href="https://react.dev/" target="_blank">React</a> and <a href="https://wordpress.org/" target="_blank">WordPress</a>. React, a JavaScript framework created by <a href="https://www.facebook.com/" target='_blank'>Facebook</a>, is widely adopted by major companies like <a href="https://airbnb.com" target='_blank'>Airbnb</a>, <a href="https://twitter.com" target='_blank'>Twitter</a>, and <a href="https://netflix.com" target='_blank'>Netflix</a>. On the other hand, WordPress serves as a robust content management system (CMS) designed for efficient content management. In our case, we harness the power of WordPress exclusively as a backend platform due to its familiar dashboard interface on the website. We have tailored it to meet our specific backend requirements. Both React and WordPress communicate with each other through <a href="https://en.wikipedia.org/wiki/API" target='_blank'>APIs</a>. {{ className: 'lead' }}
+
+<Guides />
+
+
