@@ -8,19 +8,19 @@ const guides = [
     description: 'Learn how to access the backend of your website',
   },
   {
-    href: '/pagination',
-    name: 'Posts & Pages',
-    description: 'Understand how to add/edit/delete a new listing.',
-  },
-  {
-    href: '/errors',
+    href: '/pages',
     name: 'Pages',
-    description: 'Read about the page structure of your website.',
+    description: 'Understand how to add/edit/delete a new pages.',
   },
   {
-    href: '/webhooks',
-    name: 'Global Options',
-    description: 'Learn how to edit global options in your website.',
+    href: '/biens',
+    name: 'Biens',
+    description: 'Read about the bien structure of your website.',
+  },
+  {
+    href: '/global',
+    name: 'Global',
+    description: 'Learn how to edit global settings in your website.',
   },
 ]
 
