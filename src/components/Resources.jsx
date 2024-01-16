@@ -13,7 +13,7 @@ import { UsersIcon } from '@/components/icons/UsersIcon'
 const resources = [
   {
     href: '/accueil',
-    name: 'Home page',
+    name: 'Accueil',
     description: `Découvrez la structure des composants de votre page d'accueil`,
     icon: UserIcon,
     pattern: {
@@ -53,7 +53,7 @@ const resources = [
   },
   {
     href: '/autres',
-    name: 'Other',
+    name: 'Autres',
     description: `Découvrez les autres composants situés dans d'autres pages.`,
     icon: UsersIcon,
     pattern: {
@@ -87,7 +87,7 @@ function ResourcePattern({ mouseX, mouseY, ...gridProps }) {
         />
       </div>
       <motion.div
-        className="from-synergie/50 absolute inset-0 rounded-2xl bg-gradient-to-r to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
+        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-synergie/50 to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
         style={style}
       />
       <motion.div
